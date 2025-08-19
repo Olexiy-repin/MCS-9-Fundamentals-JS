@@ -10,3 +10,13 @@
  * - Примітивні типи даних: number, string, boolean, null, undefined.
  * - Оператор typeof
  */
+
+// const pricePerItem = 10000;
+
+// console.log(pricePerItem);
+
+// alert('Hello world');
+
+// const firstName = prompt('Введіть ваше імʼя!');
+
+// console.log(typeof NaN);

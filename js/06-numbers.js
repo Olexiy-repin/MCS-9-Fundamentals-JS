@@ -12,20 +12,22 @@
   TODO: Приведіть рядок до числа.
 */
 
-// const userInput = null;
+// const userInput = Number(prompt('Введіть якесь число!'));
 
 // console.log(userInput);
 
 //TODO: Дізнайтесь числове значення ширини елемента.
+
 // const elementWidth = '50px';
-// const numericalWidth = null;
+// const numericalWidth = Number.parseInt(elementWidth);
 
 // console.log(elementWidth);
 // console.log(numericalWidth);
 
 //TODO: Дізнайтесь числове значення висоти елемента.
+
 // const elementHeight = '200.74px';
-// const numericalHeight = null;
+// const numericalHeight = Number.parseFloat(elementHeight);
 
 // console.log(elementHeight);
 // console.log(numericalHeight);
@@ -35,8 +37,9 @@
  TODO: змінної value. Використовуй методи Math.floor(), Math.ceil()
  TODO: та Math.round(). Перевір що буде в консолі при значеннях 27.3 та 27.9.
 */
-// const value = 27.9;
-// const roundedValue = null;
+
+// const value = -27.9;
+// const roundedValue = Math.trunc(value);
 
 // console.log(value);
 // console.log(roundedValue);

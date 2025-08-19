@@ -13,7 +13,7 @@
 // const firstName = 'Chelsy';
 // const lastName = 'Emerald';
 
-// const fullName = '';
+// const fullName = firstName + ' ' + lastName;
 
 // console.log(fullName);
 
@@ -21,7 +21,7 @@
 // const firstName = 'Chelsy';
 // const lastName = 'Emerald';
 
-// const fullName = '';
+// const fullName = `${firstName} ${lastName}`;
 
 // console.log(fullName);
 
@@ -29,19 +29,21 @@
   TODO: Запросіть у користувача ім'я та прізвище і виведіть у консоль повідомлення:
   TODO: Hello <імʼя> <прізвище>, you are logged in.
 */
-// const firstName = null;
-// const lastName = null;
 
-// const message = '';
+// const firstName = prompt('Введіть ваше імʼя');
+// const lastName = prompt('Введіть ваше прізвище');
+
+// const message = `Hello ${firstName} ${lastName}, you are logged in.`;
 
 // alert(message);
 
 //TODO: Дізнайтесь довжину рядка message. Виведіть перший та останій символ рядка message.
+
 // let message = 'This string is 28 chars long';
 
-// const messageLength = null;
-// const firstCharOfMessage = null;
-// const lastCharOfMessage = null;
+// const messageLength = message.length;
+// const firstCharOfMessage = message[0];
+// const lastCharOfMessage = message[message.length - 1];
 
 // console.log(message);
 // console.log(messageLength);
