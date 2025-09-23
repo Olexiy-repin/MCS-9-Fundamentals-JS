@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>classList*</title>
+    <!-- Підключення стилів -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="../css/03-classlist.css" />
+
+    <!-- Підключення скриптів -->
+    <script type="module" src="../js/03-classlist.js"></script>
+  </head>
+  <body>
+    <p class="go-home-link"><a href="../index.html">Go back</a></p>
+
+    <header class="page-header">
+      <ul class="site-nav">
+        <li class="site-nav-item">
+          <a href="/about" class="site-nav-link js-site-nav-link">About</a>
+        </li>
+        <li class="site-nav-item">
+          <a href="/portfolio" class="site-nav-link js-site-nav-link"> Portfolio </a>
+        </li>
+        <li class="site-nav-item">
+          <a href="/contact" class="site-nav-link js-site-nav-link">Contacts</a>
+        </li>
+      </ul>
+    </header>
+
+    <button class="modal-open-btn js-modal-open-btn" type="button">Open modal</button>
+    <div class="backdrop js-backdrop">
+      <div class="modal"></div>
+    </div>
+  </body>
+</html>

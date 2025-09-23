@@ -1,0 +1,19 @@
+@import url('./reset.css');
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.gallery-item {
+  width: calc((100% - 90px) / 3);
+}
