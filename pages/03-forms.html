@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Form events</title>
+    <!-- Підключення стилів -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="../css/03-forms.css" />
+
+    <!-- Підключення скриптів -->
+    <script src="../js/03-forms.js" type="module"></script>
+  </head>
+  <body>
+    <p class="go-back-link"><a href="../index.html">Go back</a></p>
+
+    <section class="feedback-form-section">
+      <div class="container">
+        <h2 class="section-title">Feedback form</h2>
+        <form class="feedback-form js-feedback-form">
+          <label class="feedback-form-field-wrapper">
+            <input class="feedback-form-input" type="text" name="username" placeholder="" />
+            <span class="feedback-form-field-desc">First Name</span>
+          </label>
+          <label class="feedback-form-field-wrapper">
+            <input class="feedback-form-input" type="email" name="email" placeholder="" />
+            <span class="feedback-form-field-desc">Email</span>
+          </label>
+          <label class="feedback-form-field-wrapper">
+            <textarea class="feedback-form-textarea" name="comment" placeholder=""></textarea>
+            <span class="feedback-form-field-desc">Comment</span>
+          </label>
+          <button class="feedback-form-btn" type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
